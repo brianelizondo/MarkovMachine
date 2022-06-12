@@ -63,6 +63,6 @@ class MarkovMachine {
 }
 
 
-let mm = new MarkovMachine("the cat in the hat");
-console.log(mm);
-console.log(mm.makeText(numWords=50));
+module.exports = {
+    MarkovMachine,
+};
